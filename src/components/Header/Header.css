@@ -1,1 +1,18 @@
-  
+.product{
+    background-color: #1C2B35;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product img{
+   
+}
+
+.nav-items a{
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 30px;
+    color:white;
+    font-weight:600;
+}

@@ -1,13 +1,11 @@
-.product{
+.nav-bar{
     background-color: #1C2B35;
     height:80px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.product img{
-   
-}
+
 
 .nav-items a{
     text-decoration: none;

@@ -4,14 +4,14 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className="product">
-       <img src={logo} alt="" />
-       <div className="nav-items">
-          <a href="/order">Order</a>
-          <a href="/OrderReview">Order Review</a>
-          <a href="/manage inventory">Manage Inventory</a>
-          <a href="/login">Login</a>
-       </div>
+        <nav className="nav-bar">
+            <img src={logo} alt="" />
+            <div className="nav-items">
+                <a href="/order">Order</a>
+                <a href="/OrderReview">Order Review</a>
+                <a href="/manage inventory">Manage Inventory</a>
+                <a href="/login">Login</a>
+            </div>
         </nav>
     );
 };

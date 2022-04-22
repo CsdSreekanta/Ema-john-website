@@ -3,15 +3,37 @@
     height: 508px;
     border:1px solid gold;
     padding-left: 10px;
+    position: relative;
+    border-radius: 8px; 
     
 }
+
+.product-price{
+    margin:0px;
+} 
 .product img{
     width:286px;
     height:286px;
+    margin-top:7px
 }
 .product-name{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
+    margin:12px 0px;
+}
+.product p{
+    margin-bottom: 0px;
+}
+.button-cart{
+    width:100%;
+    background: #FFE0B3;
+    border:none;
+    border-radius: 0px 0px 8px 8px;
+    position:absolute;
+    bottom: 0;
+    margin-left:-10px
+    
+   
 }

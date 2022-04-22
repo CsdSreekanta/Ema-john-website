@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     margin-left:104px;
-    margin-top:120px;
+    
   
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:45px
+    grid-gap:45px;
+    margin-top:120px;
 }

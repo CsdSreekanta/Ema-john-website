@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     margin-left:104px;
+   
     
   
 }
@@ -15,5 +16,6 @@
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
     padding: 10px;
-    border:1px solid #000000
+    border:1px solid #000000;
+    box-shadow: 5px 5px 5px 5px;
 }

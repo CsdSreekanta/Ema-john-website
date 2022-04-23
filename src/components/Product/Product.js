@@ -3,8 +3,8 @@ import './Product.css'
 
 
 const Product = (props) => {
-    
-  const {img, name, price, seller, ratings} =props.product;
+   const {product, handleAddToCart} = props 
+  const {img, name, price, seller, ratings} =product;
 
  
     return (
@@ -17,7 +17,7 @@ const Product = (props) => {
             <p><small>Rating:{ratings}</small></p>
            
 
-            <button onClick={()=>props.handleAddToCart(props.product)} className='button-cart'>
+            <button onClick={()=>handleAddToCart(product)} className='button-cart'>
                     <p>Add to Card</p>
             </button>
         </div>
